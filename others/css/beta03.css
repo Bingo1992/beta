@@ -1,0 +1,384 @@
+*{margin: 0;padding: 0;}
+#mybody01{
+	background-color: #DEDBC9;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	max-width: 1400px;
+	margin: 0 auto;
+	font-family: "Microsoft Yahei";
+	
+}
+ img{border: 0 none;padding:0;margin:0;} 
+ a{
+ 	text-decoration: none;
+ }
+  .beta03Top{
+  
+  	height: 200px;
+	margin: 20px auto 30px;
+  }
+ .beta03Top .cloud01{
+ 	background: url(../images/cloud.png) no-repeat;
+ 	width: 508px;
+ 	height: 163px;
+ 	margin-left: 10px;
+ 	float: left;
+
+ }
+ .beta03Top .loginlogo{
+ 	float: right;
+ 	margin-right: 150px;
+
+ }
+ .beta03Top .loginlogo img{
+ 	float: left;
+ }
+ .beta03Top .loginlogo a{
+ 	font-size: 14px;
+ 	padding: 2px 0 0 3px;
+ 	color: #666;
+ 	font-family: "Microsoft Yahei";
+ 	
+ }
+ .beta03Top .loginlogo .loginRegister{
+ 	float: left;
+ 	margin-top: -3px;
+ 	margin-right: 5px;
+ 	height: 27px;
+ }
+ .beta03Top .loginlogo a:hover{
+ 	color: red;
+ }
+ .beta03Top_01{
+ 	position: relative;
+ }
+ .beta03Top_01 .topBg{
+ 	background: url(../images/bg02.png) no-repeat;
+ 	height: 410px;
+ 
+ }
+  .beta03Top_01 .toptitle{
+  	position: absolute;
+  	background: url(../images/header01.png) no-repeat;
+  	z-index: 2;
+  	height: 143px;
+  	width: 776px;
+  	top: 0;
+  	left: 300px;
+  }
+.beta03Center{
+	width: 845px;
+	margin: 0 auto;	
+}
+.clear{clear: both;}
+
+.beta03-header h2{
+	float: left;
+	margin-bottom: 41px;
+	width: 61px;
+	height: 61px;
+	line-height: 61px;
+	text-align: center;
+	font-size: 33px;
+	margin-right: 4px;
+	background: url(../images/head_bg.png) no-repeat;
+}
+
+.beta03-1 .beta03-content{
+	height: 399px;
+	margin-bottom: 94px;
+	border: 4px solid #9a998e;
+}
+.beta03-1 #contentTop01{
+	height: 272px;
+	width: 837px;
+	overflow: hidden;
+}
+.beta03-1 #contentBottom01 span{
+	position: relative;
+	top: 45px;
+	font-weight: bolder;
+	font-size: 24px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.beta03-1  #contentBottom01-01{
+	width: 2000px;
+	position: relative;
+
+}
+.beta03-1 #contentBottom01 span#spanright{
+	float: right;
+}
+.beta03-1 #contentBottom01-1{
+	margin: 0 34px;
+	width: 768px;
+	overflow: hidden;
+	position: relative;
+}
+.beta03-1 #contentBottom01-01 a{
+	display: inline-block;
+	position: relative;
+	width: 102px;
+	float: left;
+	margin: 0 13px;
+	height: 65px;
+}
+.beta03-1 #contentBottom01-01 img{
+	cursor: pointer;
+	width: 102px;
+	height: 65px;
+}
+
+.beta03-1 #contentBottom01-01 span{
+	position: absolute;
+	top: 0;
+	left: 30px;
+	
+}
+.beta03-1 #contentBottom01-01 .border{
+	background: url(../images/mouse_on.png) no-repeat;
+	width: 37px;
+	height: 5px;
+}
+.beta03-2 .beta03-content{
+	background: url(../images/background01.png);
+	margin-bottom: 98px;
+	width: 839px;
+	height: 492px;
+}
+.beta03-content .contentText{
+	padding: 40px 78px 0 67px;
+
+}
+.beta03-content .contentText a+a{
+	border-top: 1px dashed #000;
+}
+.beta03-content  .contentText a{
+	height: 48px;
+	display: block;
+	line-height: 48px;	
+	font-size: 24px;
+	color: #2E2A2C;
+	font-family: "MicroSoft Yahei";
+	cursor: pointer;
+}
+.beta03-content .contentText a:visited
+{
+	border: none;
+}
+.beta03-content .contentText a:hover
+{
+	color: #E60012;
+}
+.beta03-content .contentText a span{
+	float: right;
+	margin-right: 167px;
+}
+.beta03-3 .beta03-content{
+	background: url(../images/background02.png);
+	width: 839px;
+	height: 296px;
+}
+
+.beta03-3 .contentText a+a{
+	text-indent: 45px;
+}
+
+.beta03-3 .beta03-last{
+	height: 161px;
+	position: relative;
+}
+
+.beta03-3 .beta03-last a{
+	height: 161px;
+	line-height: 161px;
+	display: block;
+	color: #000;
+	text-align: center;
+	font-size: 19px;
+	font-family: "Microsoft Yahei";
+	cursor: pointer;
+}
+.beta03-3 .beta03-last span{
+	border-bottom: 1px solid #636363;
+	height: 0;
+	width: 60px;
+	float: left;
+	position: absolute;
+	top: 80px;
+}
+.beta03-3 .beta03-last  #betaleft{
+	left: 310px;
+}
+.beta03-3 .beta03-last #betaright{
+	left: 480px;
+}
+
+.beta03-footer{
+	height: 288px;
+	width: 1047px;
+	margin: 0 auto;
+
+}
+
+.beta03-footer #borderline{
+	border-top: 1px solid #636363;
+	border-bottom: 1px solid #636363;
+	height: 2px;
+	margin-bottom: 40px;
+}
+.beta03-footer #logo01{
+	float: left;
+	background: url(../images/logo01.png) no-repeat;
+	width: 79px;
+	height:78px;
+	margin-left: 198px;
+	margin-right: 35px;
+}
+
+.beta03-footer #logo02{
+	background: url(../images/logo02.png) no-repeat;
+	width: 189px;
+	height: 83px;
+	float: left;
+	padding-right: 42px;
+	border-right: 1px solid #636363;
+}
+
+.beta03-footer #logo03{
+	float: left;
+	padding-left: 42px;
+	font-family: "Microsoft Yahei";
+}
+
+.beta03-footer #logo03 a{
+	font-size: 18px;
+	color: #636363;
+
+}
+.beta03-footer #logo03 a:visited{
+	color: #636363;
+}
+.beta03-footer #logo03 p{
+	line-height: 28px;
+	height: 28px;
+	font-size: 14px;
+}
+/*文章页样式*/
+.atricleContent{
+	width: 960px;
+	margin: 20px auto;
+	height: 100%;
+	border: 4px solid #9a998e;
+	padding: 20px 30px;
+	background-color: #fff;
+}
+.atricleContent h2{
+	text-align: center;
+	padding: 20px 0;
+}
+.atricleContent .box{
+	text-align: center;
+}
+.atricleContent p{
+	text-indent: 35px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "Microsoft Yahei";
+}
+.atricleContent p img{
+	position: relative;
+	top: 20px;
+}
+
+.atricleContent p strong{
+	font-size: 16px;
+}
+#atricleContent1 img{
+	margin-left: 30px;
+}
+
+.atricleContent #leftdiv{
+	float: left;
+	margin: 0 100px;
+}
+.atricleContent #rightdiv{
+	float: left;
+	width: 450px;
+	margin-top: 80px;
+}
+
+/*版权声明*/
+.mybody{
+	background: none;
+}
+.copyright{
+	height: 85px;
+	border-bottom: 4px solid  #636363;
+	box-shadow: 0px 80px 50px #F3F7FC;
+}
+
+.copyright .copyContent{
+	width: 800px;
+	margin: 20px auto;	
+}
+.copyright .copyContent img{
+	float: left;
+}
+.copyright .loginlogo{
+	float: right;
+	margin-top: 30px;
+}
+.copyright .loginlogo span{
+	border-bottom: 2px solid #e3e3e3;
+	height: 0;
+	width: 60px;
+	float: left;
+	position: relative;
+	top: 7px;
+}
+.copyright .loginlogo a{
+	color: #666;
+	text-shadow: 0 0 3px #ff0000;
+}
+.copyright .loginlogo span#logoleft{
+	left: 50px;
+}
+.copyright .loginlogo span#logoright{
+	left: 135px;
+}
+.copyright .copyText{
+	margin: 100px auto;
+	width: 800px;
+	
+}
+.copyright #copyText1{
+	height: 200px;
+}
+.copyright #copyText1 p{
+	font-weight: bold;
+	line-height: 35px;
+}
+.copyright .copyText h2{
+	margin-bottom: 30px;
+}
+.copyright .copyFooter{
+	border-top: 1px solid #e5e5e5;
+	width: 860px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.copyright .copyFooter p{
+	text-align: center;
+	color: #666;
+	line-height: 24px;
+	font-size: 12px;
+}
+.copyright #copyText2 h2{
+	color: red;
+}
+.copyright #copyText2 p{
+	font-weight: bold;
+	line-height: 35px;
+}
